@@ -264,6 +264,9 @@ main .col-dx{
 .tablet{
   display: none;
 }
+p{
+  color: white;
+}
 
 @media screen and (max-width: 744px){
   main{
