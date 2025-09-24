@@ -160,6 +160,7 @@ main {
 }
 
 main .col-dx{
+  padding-top: 1rem;
   width: 100%;
 }
 
@@ -169,13 +170,11 @@ main .col-dx{
   overflow-y: auto;
   scrollbar-width: none; 
   -ms-overflow-style: none; 
-  padding: 1rem;
-  background: #f5f5f5;
-  display: grid;
-  gap: 1rem;
+  background: #222222;
+  padding-left: 8px;
 }
 .col-sx::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none; 
 }
 
 .card {
@@ -188,6 +187,7 @@ main .col-dx{
 .card img {
   width: 100%;
   object-fit: cover;
+  border: 1px solid #464646;
 }
 
 .col-dx {
@@ -201,10 +201,10 @@ main .col-dx{
 
 .posiction{
   position: absolute;
-  top: 120px;
-  right: 420px;
+  top: 130px;
+  right: 430px;
   height: 100%;
-  color: #464646;
+  border: 1px solid #464646;
 }
 
 .element-row{
