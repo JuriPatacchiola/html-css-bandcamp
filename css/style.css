@@ -76,7 +76,7 @@ main {
 }
 
 main .col-dx{
-  width: 70%;
+  width: 100%;
 }
 
 .col-sx {
@@ -107,13 +107,32 @@ main .col-dx{
 }
 
 .col-dx {
-  padding: 2rem;
-  background: #fff;
+  padding-left: 80px;
+  background: #222222;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+}
+
+.posiction{
+  position: absolute;
+  top: 120px;
+  right: 420px;
+  height: 100%;
+  color: #464646;
+}
+
+hr{
+  color: #464646;
+}
+.element-row{
+  display: flex;
+  align-items: center;
+}
+.element-row i{
+  font-size: 50px;
+  color: white;
 }
 
 .col-dx img {
