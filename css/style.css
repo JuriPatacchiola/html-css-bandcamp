@@ -134,16 +134,22 @@ body, html {
   opacity: 0;
 }
 
+.links{
+  display: flex;
+
+}
 .links a {
+  display: block;
+  padding: 20px 10px;
   margin-right: 20px;
   text-decoration: none;
   color: white;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .links a:hover {
-  color: #0077ff;
+  background-color: #aaa;
 }
 
 main {
