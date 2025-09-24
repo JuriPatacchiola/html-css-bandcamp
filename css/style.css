@@ -190,6 +190,13 @@ main .col-dx{
   border: 1px solid #464646;
 }
 
+.card strong {
+  font-weight: lighter;
+  color: white;
+}
+.card span{
+  color: #464646;
+}
 .col-dx {
   padding-left: 80px;
   background: #222222;
@@ -210,26 +217,138 @@ main .col-dx{
 .element-row{
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .element-row i{
-  font-size: 50px;
+  font-size: 66px;
   color: white;
 }
 
 .col-dx img {
-  width: 340px;
+  width: 280px;
   height: auto;
 }
 
+.element-row p{
+  color: white;
+}
+.button1{
+  text-align: center;
+  background-color: white;
+  padding: 12px;
+  width: 340px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+.button1 a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #464646;
+}
+
+.button2{
+  text-align: center;
+  border: 2px solid white;
+  padding: 12px;
+  width: 340px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+.button2 p{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.tablet{
+  display: none;
+}
 
 @media screen and (max-width: 744px){
+  main{
+    grid-template-columns: 70% 30%;
+  }
+
+  main .col-dx{
+    padding-left: 20px;
+  }
+  .search-box input{
+    width: 300px;
+  }
+  .search-box2 input{
+    width: 430px;
+  }
+
+
   .col-sx{
     grid-template-columns: 1fr 1fr;
     }
 
-    .col-dx img{
-      width: 180px;
+    .card img{
+      width: 212px;
+
     }
+
+    .col-dx .select-song{
+      width: 192px;
+      height: 192px;
+
+    }
+
+
+    
+    .button1{
+      width: 220px;
+    }
+
+     .button2{
+      width: 220px;
+      margin-bottom: 12px;
+      margin-top: 12px;
+    }
+
+    .element-row p{
+      margin-left: 4px;
+    }
+
+    .collum{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      right: 20px;
+    }
+
+    .element-row p:nth-child(2) {
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;   
+  max-width: 134px;          
+  display: block;            
+}
+
+
+    .tablet{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .posiction{
+      right: 234px;
+    }
+
+    .element-row .profile{
+      width: 50px;
+      height: 50px;
+    }
+
+    .p-collum{
+      display: flex;
+      flex-direction: column;
+    }
+
+    
 }
 
 @media screen and (max-width: 600px){
