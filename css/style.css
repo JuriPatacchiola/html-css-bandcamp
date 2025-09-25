@@ -308,6 +308,12 @@ p{
   color: white;
 }
 
+
+.decoration{
+  display: none;
+  position: absolute;
+}
+
 @media screen and (max-width: 1024px) {
   .col-sx{
     grid-template-columns: 1fr 1fr 1fr;
@@ -328,6 +334,10 @@ p{
       right: 300px;
     }
 
+    .element-row{
+      margin-top: 12px;
+    }
+
  .element-row p:nth-child(2) {
       white-space: nowrap;       
       overflow: hidden;          
@@ -343,7 +353,17 @@ p{
 
     .button2{
       width: 280px;
+      margin-bottom: 12px;
+    }
 
+    .tablet{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .element-row img{
+      width: 50px;
+      margin-right: 12px;
     }
 
 }
@@ -487,6 +507,65 @@ p{
   .col-dx{
     display: none;
   }
+
+
+.decoration {
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center;
+  gap: 15px;
+
+  width: 80%;
+  bottom: 20px;
+  left: 10%;
+  padding: 10px;
+  background-color: #464646;
+  border-radius: 8px;
+}
+
+.decoration img {
+  width: 50px; 
+}
+
+
+.row-element-for-play-back-song-go-on-ather-song {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.row-element-for-play-back-song-go-on-ather-song i {
+  color: black; 
+  transition: color 0.3s ease;
+}
+
+
+.row-element-for-play-back-song-go-on-ather-song i:hover {
+  color: lightgray; 
+}
+
+
+
+.row-time-song {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px; 
+}
+
+.row-time {
+  background-color: aquamarine;
+  height: 4px;
+  width: 180px;
+  border-radius: 2px;
+}
+
+.name-song {
+  text-align: center;
+  flex-basis: 100%; 
+  margin-bottom: 8px;
+}
 }
 
 
