@@ -331,40 +331,40 @@ p{
      
 
   .posiction{
-      right: 300px;
+    right: 300px;
+  }
+
+  .element-row{
+    margin-top: 12px;
+  }
+
+  .element-row p:nth-child(2) {
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
+    max-width: 184px;          
+    display: block;            
     }
 
-    .element-row{
-      margin-top: 12px;
-    }
+  .button1{
+    width: 280px;
 
- .element-row p:nth-child(2) {
-      white-space: nowrap;       
-      overflow: hidden;          
-      text-overflow: ellipsis;   
-      max-width: 184px;          
-      display: block;            
-    }
+  }
 
-    .button1{
-      width: 280px;
+  .button2{
+    width: 280px;
+    margin-bottom: 12px;
+  }
 
-    }
+  .tablet{
+    display: flex;
+    flex-direction: column;
+  }
 
-    .button2{
-      width: 280px;
-      margin-bottom: 12px;
-    }
-
-    .tablet{
-      display: flex;
-      flex-direction: column;
-    }
-
-    .element-row img{
-      width: 50px;
-      margin-right: 12px;
-    }
+  .element-row img{
+    width: 50px;
+    margin-right: 12px;
+  }
 
 }
 
@@ -375,38 +375,38 @@ p{
 
   .col-sx{
     grid-template-columns: 1fr 1fr;
-    }
+  }
 
-    main .col-dx{
-      padding-left: 0px;
-    }
+  main .col-dx{
+    padding-left: 0px;
+  }
 
-    .col-dx p{
-      margin-left: 18px;
-    }
-    .col-dx img{
-      width: 200px;
-      margin-left: 16px;
-    }
+  .col-dx p{
+    margin-left: 18px;
+  }
+  .col-dx img{
+    width: 200px;
+    margin-left: 16px;
+  }
 
-    .element-row p:nth-child(2){
-      max-width: 134px;
-    }
-    .button1{
-      width: 200px;
-      margin-left: 18px;
-    }
-    .button2{
-       width: 200px;
-      margin-left: 18px;
-    }
+  .element-row p:nth-child(2){
+    max-width: 134px;
+  }
+  .button1{
+    width: 200px;
+    margin-left: 18px;
+  }
+  .button2{
+    width: 200px;
+    margin-left: 18px;
+  }
 
-    .element-row .profile{
-      width: 50px;
-    }
-    .tablet p{
-      margin-left: 18px;
-    }
+  .element-row .profile{
+    width: 50px;
+  }
+  .tablet p{
+    margin-left: 18px;
+  }
 }
 
 @media screen and (max-width: 744px){
@@ -424,71 +424,69 @@ p{
 
 
   .col-sx{
-    grid-template-columns: 1fr 1fr;
-    }
+   grid-template-columns: 1fr 1fr;
+  }
 
-    .card img{
-      width: 212px;
+  .card img{
+    width: 212px;
+  }
 
-    }
-
-    .col-dx .select-song{
-      width: 192px;
-      height: 192px;
-
-    }
+  .col-dx .select-song{
+    width: 192px;
+    height: 192px;
+  }
 
 
     
-    .button1{
-      width: 220px;
-    }
+  .button1{
+    width: 220px;
+  }
 
-     .button2{
-      width: 220px;
-      margin-bottom: 12px;
-      margin-top: 12px;
-    }
+  .button2{
+    width: 220px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
 
-    .element-row p{
-      margin-left: 4px;
-    }
+  .element-row p{
+    margin-left: 4px;
+  }
 
-    .collum{
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      right: 20px;
-    }
+  .collum{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20px;
+  }
 
-    .element-row p:nth-child(2) {
-      white-space: nowrap;       
-      overflow: hidden;          
-      text-overflow: ellipsis;   
-      max-width: 134px;          
-      display: block;            
-    }
-
-
-    .tablet{
-      display: flex;
-      flex-direction: column;
-    }
+  .element-row p:nth-child(2) {
+    white-space: nowrap;       
+    overflow: hidden;          
+    text-overflow: ellipsis;   
+    max-width: 134px;          
+    display: block;            
+  }
 
 
-    .posiction{
-      right: 234px;
-    }
+  .tablet{
+    display: flex;
+    flex-direction: column;
+  }
 
-    .element-row .profile{
-      width: 50px;
-      height: 50px;
-    }
 
-    .p-collum{
-      display: flex;
-      flex-direction: column;
-    }
+  .posiction{
+    right: 234px;
+  }
+
+  .element-row .profile{
+    width: 50px;
+    height: 50px;
+  }
+
+  .p-collum{
+    display: flex;
+    flex-direction: column;
+  }
 
     
 }
@@ -497,14 +495,14 @@ p{
 
 
   .row img {
-  width: 94px;      
-  height: 60px;      
-  object-fit: cover; 
-  object-position: left; 
-  border-radius: 8px; 
-}
+    width: 94px;      
+    height: 60px;      
+    object-fit: cover; 
+    object-position: left; 
+    border-radius: 8px; 
+  }
   .search-box i{
-        left: 240px;
+    left: 240px;
   }
 
   .search-box input{
@@ -512,9 +510,8 @@ p{
   }
 
 .links a{
-  display: block;
+    display: block;
     padding: 20px 10px;
-    /* margin-right: 20px; */
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -549,62 +546,61 @@ p{
 
 
 .decoration {
-  display: flex; 
-  flex-wrap: wrap; 
-  align-items: center;
-  gap: 15px;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    bottom: 20px;
+    left: 10%;
+    padding: 10px;
+    background-color: #464646;
+    border-radius: 8px;
+  }
 
-  width: 80%;
-  bottom: 20px;
-  left: 10%;
-  padding: 10px;
-  background-color: #464646;
-  border-radius: 8px;
-}
-
-.decoration img {
-  width: 50px; 
-}
-
-
-.row-element-for-play-back-song-go-on-ather-song {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+  .decoration img {
+    width: 50px; 
+  }
 
 
-.row-element-for-play-back-song-go-on-ather-song i {
-  color: black; 
-  transition: color 0.3s ease;
-}
+  .row-element-for-play-back-song-go-on-ather-song {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 
 
-.row-element-for-play-back-song-go-on-ather-song i:hover {
-  color: lightgray; 
-}
+  .row-element-for-play-back-song-go-on-ather-song i {
+    color: black; 
+    transition: color 0.3s ease;
+  }
+
+
+  .row-element-for-play-back-song-go-on-ather-song i:hover {
+    color: lightgray; 
+  }
 
 
 
-.row-time-song {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px; 
-}
+  .row-time-song {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px; 
+  }
 
-.row-time {
-  background-color: aquamarine;
-  height: 4px;
-  width: 180px;
-  border-radius: 2px;
-}
+  .row-time {
+    background-color: aquamarine;
+    height: 4px;
+    width: 180px;
+    border-radius: 2px;
+  }
 
-.name-song {
-  text-align: center;
-  flex-basis: 100%; 
-  margin-bottom: 8px;
-}
+  .name-song {
+    text-align: center;
+    flex-basis: 100%; 
+    margin-bottom: 8px;
+  }
 }
 
 
