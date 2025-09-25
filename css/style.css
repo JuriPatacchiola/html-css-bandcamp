@@ -308,6 +308,46 @@ p{
   color: white;
 }
 
+@media screen and (max-width: 1024px) {
+  .col-sx{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main .col-dx{
+    padding-left: 20px;
+  }
+
+  .col-dx img{
+    width: 240px;
+    margin-left: 18px;
+  }
+
+     
+
+  .posiction{
+      right: 300px;
+    }
+
+ .element-row p:nth-child(2) {
+      white-space: nowrap;       
+      overflow: hidden;          
+      text-overflow: ellipsis;   
+      max-width: 184px;          
+      display: block;            
+    }
+
+    .button1{
+      width: 280px;
+
+    }
+
+    .button2{
+      width: 280px;
+
+    }
+
+}
+
 @media screen and (max-width: 744px){
   main{
     grid-template-columns: 70% 30%;
@@ -363,12 +403,12 @@ p{
     }
 
     .element-row p:nth-child(2) {
-  white-space: nowrap;       
-  overflow: hidden;          
-  text-overflow: ellipsis;   
-  max-width: 134px;          
-  display: block;            
-}
+      white-space: nowrap;       
+      overflow: hidden;          
+      text-overflow: ellipsis;   
+      max-width: 134px;          
+      display: block;            
+    }
 
 
     .tablet{
