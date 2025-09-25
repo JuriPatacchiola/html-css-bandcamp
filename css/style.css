@@ -368,10 +368,49 @@ p{
 
 }
 
-@media screen and (max-width: 744px){
-  main{
-    grid-template-columns: 70% 30%;
+@media screen and (max-width: 768px) {
+  .posiction{
+    right: 230px;
   }
+
+  .col-sx{
+    grid-template-columns: 1fr 1fr;
+    }
+
+    main .col-dx{
+      padding-left: 0px;
+    }
+
+    p{
+      margin-left: 18px;
+    }
+    .col-dx img{
+      width: 200px;
+      margin-left: 16px;
+    }
+
+    .element-row p:nth-child(2){
+      max-width: 134px;
+    }
+    .button1{
+      width: 200px;
+      margin-left: 18px;
+    }
+    .button2{
+       width: 200px;
+      margin-left: 18px;
+    }
+
+    .element-row .profile{
+      width: 50px;
+    }
+    .tablet p{
+      margin-left: 18px;
+    }
+}
+
+@media screen and (max-width: 744px){
+
 
   main .col-dx{
     padding-left: 20px;
