@@ -190,6 +190,29 @@ main .col-dx{
   border: 1px solid #464646;
 }
 
+.image-container {
+  position: relative;
+  display: block; 
+}
+
+.image-container i {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 12px; 
+  color: white; 
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease; 
+  cursor: pointer;
+}
+
+
+.image-container:hover i {
+  opacity: 1; 
+  transform: translate(-50%, -50%) scale(1.1); 
+}
+
 .card strong {
   font-weight: lighter;
   color: white;
@@ -240,11 +263,20 @@ main .col-dx{
   width: 340px;
   margin-bottom: 12px;
   border-radius: 8px;
+  transition: background-color 0.3 ease;
+}
+
+.button1:hover{
+  background-color: #ccc;
 }
 .button1 a{
   text-decoration: none;
   font-size: 20px;
   color: #464646;
+  transition: color 0.3 ease;
+}
+.button1 a:hover{
+  color: white;
 }
 
 .button2{
@@ -254,12 +286,20 @@ main .col-dx{
   width: 340px;
   margin-bottom: 40px;
   border-radius: 8px;
+   transition: background-color 0.3 ease;
+
 }
+
+.button2:hover{
+  background-color: #ccc;
+}
+
 .button2 p{
   text-decoration: none;
   font-size: 20px;
   color: white;
 }
+
 
 .tablet{
   display: none;
@@ -356,6 +396,14 @@ p{
 
 @media screen and (max-width: 600px){
 
+
+  .row img {
+  width: 94px;      
+  height: 60px;      
+  object-fit: cover; 
+  object-position: left; 
+  border-radius: 8px; 
+}
   .search-box i{
         left: 240px;
   }
